@@ -8,9 +8,12 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <h1>カメブロへようこそ</h1>
+    <p>カメブロはGatsby.jsで構成されています.<br/>
+    Gatsby.jsはReact.jsのライブラリで,<br/>
+    React.jsはJavaScriptのライブラリです．
+    </p>
+    <p>出来立てホヤホヤなので,まだブログ記事はありません.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
