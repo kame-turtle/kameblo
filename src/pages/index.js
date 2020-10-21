@@ -9,11 +9,13 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>カメブロへようこそ</h1>
-    <p>カメブロはGatsby.jsで構成されています.<br/>
-    Gatsby.jsはReact.jsのライブラリで,<br/>
+    <p>カメブロはGatsbyで構成されています.<br/>
+    GatsbyはReact.jsのライブラリで,<br/>
     React.jsはJavaScriptのライブラリです．
     </p>
-    <p>出来立てホヤホヤなので,まだブログ記事はありません.</p>
+    <p>出来立てホヤホヤなので,まだブログ記事はありません.
+     現在,ヘッダー部分の改装中.
+    </p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
